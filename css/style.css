@@ -1,0 +1,399 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+body {
+    /* --color-whatsapp: #31b221;
+    --color-dark: rgba(11, 21, 23, 1);
+    --color-light: rgba(154, 62, 62, 1);
+    --color-light-o: rgba(154, 62, 62, 0.3);
+    --color-light-o-3: rgba(154, 62, 62, 0.1);
+    --color-light-o-2: rgba(154, 62, 62, 0.2);
+    --color-light-o-1: rgba(154, 62, 62, 0.5); */
+
+    color: #000 !important;
+    font-family: cursive;
+    overflow-x: hidden;
+    letter-spacing: 1px;
+    text-rendering: optimizeLegibility;
+}
+h1,
+h2,
+h3 {
+    font-family: fantasy;
+}
+.row {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+.col-md-6 .col-6 {
+    padding: 0;
+    height: 100%;
+}
+.table {
+    text-align: center;
+}
+/*==========================
+========= Header ===========
+===========================*/
+header {
+    position: relative;
+    height: 45vh;
+}
+.header-background {
+    width: 100%;
+    height: 100%;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(0), color-stop(#94665b), to(#432e27));
+    background-image: -o-linear-gradient(0, #94665b, #432e27);
+    background-image: linear-gradient(0, #94665b, #432e27);
+    position: relative;
+}
+.header-tab {
+    position: relative;
+    top: -8vw;
+    width: 100%;
+    height: 80px;
+    background-color: #d5e1ed52;
+    z-index: 1;
+}
+.header-img {
+    /* box-shadow: -3px -1px 22px #2d2626, 0px -1px 10px #2d2626; */
+    position: absolute;
+    top: -15vh;
+    left: 10vw;
+    z-index: 10;
+    padding: 45px 15px;
+}
+.header-img img {
+    /* width: 200px; */
+    width: 170px;
+    height: auto;
+    border-radius: 50%;
+}
+.header-title {
+    position: relative;
+    left: 30vw;
+    top: 2vh;
+}
+.header-title h1 {
+    color: #000;
+}
+/*=====================================
+======== Academic Bavkground  =========
+=====================================*/
+.academic-background {
+    position: relative;
+    padding-right: 6vw;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+@media (max-width: 1200px) {
+    .academic-background {
+        padding-right: 8vw;
+    }
+}
+.academic-background-title {
+    font-family: cursive;
+}
+.academic-background .univ {
+    font-size: 1.15em;
+    font-family: "Open Sans Condensed";
+}
+.dms-uni-logo {
+    position: absolute;
+    right: -1vw;
+    bottom: -25px;
+    width: 75px;
+}
+/*=====================================
+============= Languages  ==============
+=====================================*/
+.languages {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.languages td {
+    width: 33.33%;
+}
+.languages .languages-title {
+    text-transform: uppercase;
+}
+.table .ar {
+    font-weight: 600;
+    color: darkgreen;
+}
+.table .en {
+    font-weight: 600;
+    color: darkorange;
+}
+.table .pe {
+    font-weight: 600;
+    color: red;
+}
+/*=====================================
+=========== Work Experience ===========
+=====================================*/
+.history {
+    margin-top: 50px;
+    position: relative;
+    font-size: 16px;
+    padding-left: 20px;
+    font-family: sans-serif;
+}
+.history-title {
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.history td {
+    vertical-align: middle;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(211, 142, 255, 0.3);
+}
+.history .history-td {
+    width: 25%;
+}
+.history h5 {
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.history p {
+    margin: 0;
+}
+.history .work-place {
+    font-weight: 700;
+    font-size: 12.5px !important;
+}
+/*=====================================
+======= Communication Skill ===========
+=====================================*/
+.communication-skills {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.communication-skills li {
+    margin: 15px;
+}
+/*=====================================
+======= Contact Information ===========
+=====================================*/
+.contact-info {
+    margin: 15px 0 0;
+    background: rgba(211, 142, 255, 0.5);
+    padding: 20px;
+    font-family: cursive;
+}
+.contact-info .contact-title {
+    margin-bottom: 10px;
+}
+.contact-info p {
+    margin: 12px;
+}
+.contact-info a {
+    text-decoration: none;
+    color: inherit;
+}
+.contact-info .fa {
+    font-size: 25px;
+    margin-right: 5px;
+    color: #e44d26;
+}
+.contact-info .fa-whatsapp {
+    color: #31b221;
+}
+/*=====================================
+=============== Skills ================
+=====================================*/
+.skills {
+    margin-top: 80px;
+}
+.skills .sub-title {
+    margin-top: 25px;
+    text-align: center;
+}
+.skills table {
+    border-top: 1px solid #dee2e6;
+}
+.skills table img {
+    height: 45px;
+}
+.skills td {
+    vertical-align: middle;
+    text-align: left;
+    width: 33.33%;
+    border-top: none;
+}
+.skills td:last-child {
+    text-align: center;
+}
+.skills td:first-child {
+    color: red;
+}
+.skills td a {
+    display: block;
+    margin: 15px 0;
+    text-align: left;
+    text-decoration: none;
+    color: rgba(11, 21, 23, 1);
+}
+.skills .parcode-container {
+    position: relative;
+}
+.skills .parcode {
+    position: absolute;
+    top: -14%;
+    right: 2px;
+    width: 75px;
+    height: auto;
+}
+@media (max-width: 1200px) {
+    .skills .parcode {
+        width: 35px;
+    }
+}
+.skills .works {
+    background-color: #d5e1ed52;
+    border-bottom: 1px solid #dee2e6;
+}
+.skills .desc {
+    background-color: #d5e1ed80;
+    text-align: left;
+    padding: 2px;
+    font-size: 0.9rem;
+    font-weight: 200;
+}
+.skills .backend {
+    margin-top: 50px;
+}
+.skills .backend img {
+    height: auto;
+}
+.skills .current-studying {
+    margin-top: 50px;
+}
+.skills .current-studying img {
+    height: auto;
+}
+.skills .additional-skills {
+    margin-top: 50px;
+}
+.skills .additional-skills img {
+    height: auto;
+}
+.progress-background {
+    background-color: #e44d26 !important;
+}
+/*=====================================
+============= Seperator ===============
+=====================================*/
+.seperator {
+    margin: 10px 25px;
+    font-size: 0.8rem;
+    position: relative;
+}
+.seperator span {
+    background-color: #fff;
+    padding: 0 15px;
+}
+.seperator:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #eee;
+    z-index: -1;
+}
+
+/**************************************************
+***************** Medium Screen ********************
+**************** Max-width: 992px *****************
+**************************************************/
+@media (max-width: 992px) {
+    .container {
+        max-width: 900px;
+    }
+    .academic-background {
+        padding-right: 10vw;
+    }
+    .header-title {
+        left: 35vw;
+    }
+    .header-img img {
+        width: 160px;
+    }
+    .info-container {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+}
+
+/**************************************************
+***************** Small Screen ********************
+**************** Max-width: 768px *****************
+**************************************************/
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.2rem;
+    }
+    h2 {
+        font-size: 1.6rem;
+    }
+    h3 {
+        font-size: 1.5rem;
+    }
+    h5 {
+        font-size: 1rem;
+    }
+    .academic-background {
+        padding-right: 10vw;
+    }
+    .header-title {
+        left: 45%;
+    }
+    .header-img img {
+        width: 150px;
+    }
+    .dms-uni-logo {
+        width: 60px
+    }
+}
+/**************************************************
+************** Very Small Screen ******************
+**************** Max-width: 576px *****************
+**************************************************/
+@media (max-width: 576px) {
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 1.3rem;
+    }
+    h3 {
+        font-size: 1.1rem;
+    }
+    h5 {
+        font-size: 0.85rem;
+    }
+    .academic-background {
+        padding-right: 10vw;
+    }
+    .header-title {
+        left: 10%;
+        top: -75px;
+    }
+    .header-img img {
+        width: 100px;
+    }
+    .dms-uni-logo {
+        width: 35px;
+    }
+}
